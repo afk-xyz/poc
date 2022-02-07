@@ -11,8 +11,8 @@
       "http"
     ],
     "paths": {
-      "/killa/{Full Name}&{Email}": {
-        "post": {
+      "/submit/{Full Name}&{Email}": {
+        "get": {
           "description": "Submit Personal Details",
           "operationId": "xyz",
           "parameters": [
