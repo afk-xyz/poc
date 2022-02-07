@@ -1,0 +1,14 @@
+{
+"swagger": "2.0",
+"info": {
+"description": "Hi Allstars! This a Pentest Course, Kindly provide firstName, lastName and email."
+"version": "4320",
+"title": "Pentest Course",
+"termsOfService": "https://www.airasia.com",
+"contact": {
+"email": "afk@airasia.gov"
+},
+"license": {
+"name": "Apache 2.0",
+"url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+}
