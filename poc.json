@@ -10,7 +10,7 @@
 }
 }
 
-},
+}
 "host": "petstore.swagger.io",
 "basePath": "/v2",
 "tags": [
@@ -27,4 +27,4 @@
 "description": "Access to Petstore orders"
 },
 ]
-}
+
