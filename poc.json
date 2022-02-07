@@ -1,12 +1,39 @@
 {
-"swagger": "2.0",
-"info": {
-"description": "Hi Allstars! This a Pentest Course, Kindly provide firstName, lastName and email.",
-"version": "4320",
-"title": "Pentest Course",
-"termsOfService": "https://www.airasia.com",
-"contact": {
-"email": "afk@airasia.gov"
-}
-}
+    "swagger": "2.0",
+    "info": {
+      "title": "Promotion",
+      "description": "Job Promotions",
+      "version": "Pentest"
+    },
+    "host": "trinidad.afk.my:12345",
+    "basePath": "/",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/killa/{a}&{b}": {
+        "get": {
+          "description": "Submit Details",
+          "operationId": "xyz",
+          "parameters": [
+            {
+              "name": "a",
+              "in": "path",
+              "description": "Full Name",
+              "required": true
+              
+              
+            },
+            {
+              "name": "b",
+              "in": "path",
+              "description": "YourEmail@airasia.com",
+              "required": true
+              
+            }
+          ],
+          "responses": {}
+        }
+      }
+    }   
 }
