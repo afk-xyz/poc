@@ -1,11 +1,11 @@
 {
     "swagger": "2.0",
     "info": {
-      "title": "AirAsia@Capital A Job Promotion",
-      "description": "Submit Details for Lucrative Job Promotions",
+      "title": "Capital A : Job Promotion",
+      "description": "Submit Details for Job Promotions",
       "version": "Pentest"
     },
-    "host": "trinidad.afk.my:12345",
+    "host": "83d6-183-171-17-204.ngrok.io",
     "basePath": "/",
     "schemes": [
       "http"
