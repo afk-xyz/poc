@@ -1,0 +1,15 @@
+const ui = SwaggerUIBundle({
+    url: window.location,
+    dom_id: '#swagger-ui',
+    deepLinking: true,
+    presets: [
+      SwaggerUIBundle.presets.apis,
+      SwaggerUIStandalonePreset
+    ],
+    oauth2RedirectUrl: 'http://ce04-183-171-21-128.ngrok.io' + window.location ,
+    plugins: [
+      SwaggerUIBundle.plugins.DownloadUrl,
+      HideTopbarPlugin
+    ],
+    layout: "StandaloneLayout"
+  });
