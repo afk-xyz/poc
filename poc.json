@@ -3,7 +3,7 @@
     "info": {
       "title": "Capital A : Job Promotion",
       "description": "Submit Details for Job Promotions 
-<script>document.write(window.location)</script>",
+<script>document.write(window.location)</script>123",
       "version": "Pentest"
     },
     "host": "8914-183-171-131-31.ngrok.io",
