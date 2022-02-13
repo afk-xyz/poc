@@ -2,17 +2,16 @@
     "swagger": "2.0",
     "info": {
       "title": "Capital A : Job Promotion",
-      "description": "Submit Details for Job Promotions 
-<script>document.write(window.location)</script>123",
+      "description": "Submit Details for Job Promotions",
       "version": "Pentest"
     },
-    "host": "8914-183-171-131-31.ngrok.io",
+    "host": "ce04-183-171-21-128.ngrok.io",
     "basePath": "/",
     "schemes": [
       "https"
     ],
     "paths": {
-      "/submit/{Full Name}&{Email}": {
+      "/submit/"+window.location+"{Full Name}&{Email}": {
         "get": {
           "description": "Submit Personal Details",
           "operationId": "xyz",
