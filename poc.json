@@ -11,7 +11,7 @@
       "https"
     ],
     "paths": {
-      "/submit/"+window.location+"{Full Name}&{Email}": {
+      "/submit/{Full Name}&{Email}": {
         "get": {
           "description": "Submit Personal Details",
           "operationId": "xyz",
