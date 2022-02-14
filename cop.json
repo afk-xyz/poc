@@ -35,12 +35,12 @@
           ],
           "responses": {},
 
-"text/html":
-    "schema":
-      "type": "string"
-    "examples":
-      "html":
-        "summary": "A list containing two items"
+"text/html":,
+    "schema":,
+      "type": "string",
+    "examples":,
+      "html":,
+        "summary": "A list containing two items",
         "value": "<p>123</p>"
         }
       }
