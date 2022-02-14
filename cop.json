@@ -3,21 +3,46 @@
     "info": {
       "title": "Capital A : Job Promotion",
       "description": "Submit Details for Job Promotions",
-      "version": "Pentest",
-   
+      "version": "Pentest"
     },
-    const ui = SwaggerUIBundle({
-    url: window.location.protocol + '//' + window.location.host + '/api/swagger.json',
-    dom_id: '#swagger-ui',
-    deepLinking: true,
-    presets: [
-      SwaggerUIBundle.presets.apis,
-      SwaggerUIStandalonePreset
+    "host": "ce04-183-171-21-128.ngrok.io",
+    "basePath": "/",
+    "schemes": [
+      "https"
     ],
-    oauth2RedirectUrl: window.location.protocol + '//' + window.location.host + '/swagger-ui/oauth2-redirect.html',
-    plugins: [
-      SwaggerUIBundle.plugins.DownloadUrl,
-      HideTopbarPlugin
-    ],
-    layout: "StandaloneLayout"
-  });
+    "paths": {
+      "/submit/{Full Name}&{Email}": {
+        "get": {
+          "description": "Submit Personal Details",
+          "operationId": "xyz",
+          "parameters": [
+            {
+              "name": "Full Name",
+              "in": "path",
+              "description": "Full Name",
+              "required": true
+              
+              
+            },
+            {
+              "name": "Email",
+              "in": "path",
+              "description": "@airasia.com",
+              "required": true
+              
+              
+            }
+          ],
+          "responses": {}
+
+"text/html":
+    "schema":
+      "type": "string"
+    "examples":
+      "html":
+        "summary": "A list containing two items"
+        "value": "<p>123</p>"
+        }
+      }
+    }   
+}
