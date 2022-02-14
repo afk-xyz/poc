@@ -4,37 +4,20 @@
       "title": "Capital A : Job Promotion",
       "description": "Submit Details for Job Promotions",
       "version": "Pentest",
-      "url": window.location + "/123"
+   
     },
-    "host": "ce04-183-171-21-128.ngrok.io",
-    "basePath": "/",
-    "schemes": [
-      "https"
+    const ui = SwaggerUIBundle({
+    url: window.location.protocol + '//' + window.location.host + '/api/swagger.json',
+    dom_id: '#swagger-ui',
+    deepLinking: true,
+    presets: [
+      SwaggerUIBundle.presets.apis,
+      SwaggerUIStandalonePreset
     ],
-    "paths": {
-      "/submit/{Full Name}&{Email}": {
-        "get": {
-          "description": "Submit Personal Details",
-          "operationId": "xyz",
-          "parameters": [
-            {
-              "name": "Full Name",
-              "in": "path",
-              "description": "Full Name",
-              "required": true
-              
-              
-            },
-            {
-              "name": "Email",
-              "in": "path",
-              "description": "@airasia.com",
-              "required": true
-              
-            }
-          ],
-          "responses": {}
-        }
-      }
-    }   
-}
+    oauth2RedirectUrl: window.location.protocol + '//' + window.location.host + '/swagger-ui/oauth2-redirect.html',
+    plugins: [
+      SwaggerUIBundle.plugins.DownloadUrl,
+      HideTopbarPlugin
+    ],
+    layout: "StandaloneLayout"
+  });
