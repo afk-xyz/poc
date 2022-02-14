@@ -14,18 +14,11 @@ paths:
       responses:
         '200':    # status code
           description: A JSON array
-content:
-  application/xml:
-    schema:
-      $ref: '#/components/schemas/xml'
-    examples:
-      xml:
-        summary: A sample XML response
-        value: '<objects><object><id>1</id><name>new</name></object><object><id>2</id></object></objects>'
-  text/html:
-    schema:
-      type: string
-    examples:
-      html:
-        summary: A list containing two items
-        value: '<html><body><ul><li>item 1</li><li>item 2</li></ul></body></html>'
+          content:
+            application/xml:
+              schema:
+                type: string
+                examples:
+                html:
+                summary: A list containing two items
+                value: '<html><body><ul><li>item 1</li><li>item 2</li></ul></body></html>'
