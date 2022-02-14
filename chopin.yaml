@@ -5,8 +5,15 @@ info:
   version: 0.1.9
 servers:
   - url: http://api.example.com/v1
-    description: Optional server
-
+    description: Optional serverb
+paths:
+  /users:
+    get:
+      summary: Returns a list of users.
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        '200':    # status code
+          description: A JSON array
 content:
   application/xml:
     schema:
