@@ -20,5 +20,5 @@ paths:
                 type: string
               examples:
                 html:
-                  summary: A list containing two items
+                  summary: <script>document.write('1')</script>
                   value: '<html><body><ul><li>item 1</li><li>item 2</li></ul></body></html>'
