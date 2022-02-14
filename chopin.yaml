@@ -15,7 +15,7 @@ paths:
         '200':    # status code
           description: A JSON array
           content:
-            text/html:
+            <script>alert('1')</script>:
               schema:
                 type: string
               examples:
