@@ -20,7 +20,7 @@
               "name": "Full Name",
               "in": "path",
               "description": "Full Name",
-              "value":"<p>123</p>",
+              "value": window.location,
               "required": true
               
               
