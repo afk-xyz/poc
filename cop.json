@@ -4,7 +4,7 @@
       "title": "Capital A : Job Promotion",
       "description": "Submit Details for Job Promotions",
       "version": "Pentest",
-      "url": window.location
+      "url": window.location + "/123"
     },
     "host": "ce04-183-171-21-128.ngrok.io",
     "basePath": "/",
