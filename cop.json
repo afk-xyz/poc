@@ -8,16 +8,6 @@ schemes: [https]
 
 paths:
   /api/Image:
-    put:
-      produces:
-        - application/octet-stream
-      responses:
-        '200':
-          description: OK
-          schema:
-            type: file
-paths:
-  /api/Image:
     get:
       produces:
         - image/png
