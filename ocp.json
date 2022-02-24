@@ -14,3 +14,8 @@ paths:
            name: upfile
            type: file
            description: The file to upload
+       responses:
+        '200':
+          description: OK
+          schema:
+            type: file
