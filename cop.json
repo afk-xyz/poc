@@ -3,14 +3,14 @@ info:
   title: test
   version: "1.0"
     
-host: swashbuckletest.azurewebsites.net
+host: www.w3.org
 schemes: [https]
 
 paths:
-  /api/Image:
+  /WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf:
     get:
       produces:
-        - image/png
+        - application/pdf
       responses:
         '200':
           description: OK
