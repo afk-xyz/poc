@@ -8,7 +8,7 @@ schemes: [https]
 
 paths:
   /dummy.pdf:
-    get:
+    put:
       produces:
         - application/octet-stream
       responses:
