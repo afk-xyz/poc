@@ -3,11 +3,11 @@ info:
   title: test
   version: "1.0"
     
-host: e923-183-171-87-179.ngrok.io
+host: swashbuckletest.azurewebsites.net
 schemes: [https]
 
 paths:
-  /dummy.pdf:
+  /api/Image:
     put:
       produces:
         - application/octet-stream
