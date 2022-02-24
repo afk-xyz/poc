@@ -4,9 +4,14 @@ info:
   title: API
   description: OPEN API 3.0
 
-requestBody:
-  content:
-    image/png:
-      schema:
-        type: string
-        format: binary
+paths:
+   /docs/:
+     post:
+       summary: Uploads a file.
+       consumes:
+         - multipart/form-data
+       parameters:
+         - in: formData
+           name: upfile
+           type: file
+           description: The file to upload
