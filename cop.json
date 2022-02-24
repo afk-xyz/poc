@@ -10,7 +10,7 @@ paths:
   /dummy.pdf:
     get:
       produces:
-        - application/pdf
+        - application/octet-stream
       responses:
         '200':
           description: OK
