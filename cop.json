@@ -3,11 +3,11 @@ info:
   title: test
   version: "1.0"
     
-host: raw.githubusercontent.com
+host: 3baf-183-171-87-179.ngrok.io
 schemes: [https]
 
 paths:
-  /mozilla/pdf.js/master/examples/helloworld/helloworld.pdf:
+  /dummy.pdf:
     get:
       produces:
         - application/pdf
