@@ -10,7 +10,7 @@ paths:
   /api/Image:
     put:
       produces:
-        - image/png
+        - application/octet-stream
       responses:
         '200':
           description: OK
