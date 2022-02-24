@@ -3,14 +3,24 @@ info:
   title: test
   version: "1.0"
     
-host: cdn.cms-twdigitalassets.com
+host: swashbuckletest.azurewebsites.net
 schemes: [https]
 
 paths:
-  /content/dam/about-twitter/en/brand-toolkit/brand-download-img-1.jpg.twimg.768.jpg:
+  /api/Image:
     put:
       produces:
         - application/octet-stream
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: file
+paths:
+  /api/Image:
+    get:
+      produces:
+        - image/png
       responses:
         '200':
           description: OK
