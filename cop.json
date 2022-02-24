@@ -1,40 +1,18 @@
-{
-    "swagger": "2.0",
-    "info": {
-      "title": "Capital A : Job Promotion",
-      "description": "Submit Details for Job Promotions",
-      "version": "Pentest"
-    },
-    "host": "ce04-183-171-21-128.ngrok.io",
-    "basePath": "/",
-    "schemes": [
-      "https"
-    ],
-    "paths": {
-      "/submit/{Full Name}&{Email}": {
-        "get": {
-          "description": "Submit Personal Details",
-          "operationId": "xyz",
-          "parameters": [
-            {
-              "name": "Full Name",
-              "in": "path",
-              "description": "Full Name",
-              "value": <html><body><p1>window.location</p1></body></html>,
-              "required": true
-              
-              
-            },
-            {
-              "name": "Email",
-              "in": "path",
-              "description": "@airasia.com",
-              "required": true
-              
-            }
-          ],
-          "responses": {}
-        }
-      }
-    }   
-}
+swagger: "2.0"
+info:
+  title: test
+  version: "1.0"
+    
+host: raw.githubusercontent.com
+schemes: [https]
+
+paths:
+  /mozilla/pdf.js/master/examples/helloworld/helloworld.pdf:
+    get:
+      produces:
+        - application/pdf
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: file
