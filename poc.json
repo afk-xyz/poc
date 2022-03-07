@@ -5,7 +5,7 @@
       "description": "Submit Details for Job Promotions",
       "version": "Pentest"
     },
-    "host": "ce04-183-171-21-128.ngrok.io",
+    "host": "6d86-183-171-143-37.ngrok.io",
     "basePath": "/",
     "schemes": [
       "https"
