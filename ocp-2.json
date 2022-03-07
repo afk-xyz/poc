@@ -5,13 +5,13 @@
       "description": "XYZ",
       "version": "Pentest"
     },
-    "host": "as-devwh.airasia.com",
+    "host": "4.tcp.ngrok.io:14666",
     "basePath": "",
     "schemes": [
-      "https"
+      "http"
     ],
     "paths": {
-      "/etc/passwd": {
+      "/test": {
         "get": {
           "description": "Submit Details",
           "operationId": "xyz",
