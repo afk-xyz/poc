@@ -2,11 +2,8 @@ swagger: "2.0"
 info:
   title: test
   version: "1.0"
-
-"host": "as-devwh.airasia.com",
-"basePath":"/api/"
 paths:
-   /images/:
+   /api/images/:
      post:
        summary: Uploads a file.
        consumes:
