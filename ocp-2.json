@@ -8,7 +8,7 @@
     "host": "4.tcp.ngrok.io:14666",
     "basePath": "",
     "schemes": [
-      "https"
+      "http"
     ],
     "paths": {
       "/test": {
