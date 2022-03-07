@@ -3,10 +3,10 @@ info:
   title: test
   version: "1.0"
 
-host: "as-devwh.airasia.com"
-
+"host": "as-devwh.airasia.com"
+"basePath":"/api/"
 paths:
-   /api/:
+   /images/:
      post:
        summary: Uploads a file.
        consumes:
