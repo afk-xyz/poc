@@ -5,7 +5,7 @@
       "description": "XYZ",
       "version": "Pentest"
     },
-    "host": "4.tcp.ngrok.io:14666",
+    "host": "6d86-183-171-143-37.ngrok.io",
     "basePath": "",
     "schemes": [
       "https"
