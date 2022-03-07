@@ -1,21 +1,39 @@
-swagger: "2.0"
-info:
-  title: test
-  version: "1.0"
-host:as-devwh.airasia.com
-paths:
-   /api/images/:
-     post:
-       summary: Uploads a file.
-       consumes:
-         - multipart/form-data
-       parameters:
-         - in: formData
-           name: upfile
-           type: file
-           description: The file to upload
-       responses:
-        '200':
-          description: OK
-          schema:
-            type: file
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "AFK",
+      "description": "XYZ",
+      "version": "Pentest"
+    },
+    "host": "as-devwh.airasia.com",
+    "basePath": "",
+    "schemes": [
+      "https"
+    ],
+    "paths": {
+      "/etc/passwd": {
+        "get": {
+          "description": "Submit Details",
+          "operationId": "xyz",
+          "parameters": [
+            {
+              "name": "Full Name",
+              "in": "path",
+              "description": "Full Name",
+              "required": true
+              
+              
+            },
+            {
+              "name": "Email",
+              "in": "path",
+              "description": "@airasia.com",
+              "required": true
+              
+            }
+          ],
+          "responses": {}
+        }
+      }
+    }   
+}
