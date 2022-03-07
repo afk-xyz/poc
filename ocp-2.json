@@ -2,6 +2,7 @@ swagger: "2.0"
 info:
   title: test
   version: "1.0"
+"host":"as-devwh.airasia.com","basePath":"/api/configuration/v1beta","tags":[{"name":"Policy Service","description":"Provides the ability to modify and view policies.\n\n"
 paths:
    /api/images/:
      post:
