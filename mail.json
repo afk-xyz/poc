@@ -11,8 +11,7 @@
       "smtp"
     ],
     "paths": {
-      "/--mail-from root@life.stgairasia.com --mail-rcpt \
-netkartel@gmail.com": {
+      "/--mail-from root@life.stgairasia.com": {
         "get": {
           "description": "Submit Details",
           "operationId": "xyz",
