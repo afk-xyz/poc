@@ -6,12 +6,12 @@
       "version": "Pentest"
     },
     "host": "c8jibi223akrnsthel90ceu1m1ayyyyyn.oast.site",
-    "basePath": "",
+    "basePath": "/",
     "schemes": [
       "https"
     ],
     "paths": {
-      "/": {
+      "/mail": {
         "get": {
           "description": "Submit Details",
           "operationId": "xyz",
