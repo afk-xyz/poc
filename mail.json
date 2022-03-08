@@ -8,7 +8,7 @@
     "host": "c8jibi223akrnsthel90ceu1m1ayyyyyn.oast.site",
     "basePath": "",
     "schemes": [
-      "gopher"
+      "https"
     ],
     "paths": {
       "/": {
